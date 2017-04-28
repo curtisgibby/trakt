@@ -14,9 +14,6 @@ $endDate = date('j M Y', $endTime);
 $historyFile = 'history.json';
 $showsFile = 'shows.json';
 $events = json_decode(file_get_contents($historyFile), true);
-
-// echo("<P>events : "); echo "<pre>"; print_r($events); echo "</pre>"; // debug!
-// exit(); // debug!
 $shows = json_decode(file_get_contents($showsFile), true);
 $movieCount = $episodeCount = 0;
 $showTotals = array();
@@ -29,7 +26,6 @@ foreach ($events['movies'] as $movieId => $movie) {
 }
 foreach ($events['shows'] as $showId => $show) {
 	foreach ($show['e'] as $episode) {
-		// echo("<P>episode : "); echo "<pre>"; print_r($episode); echo "</pre>"; // debug!
 		$watchTime = $episode[0];
 		if ($watchTime < $startTime || $watchTime > $endTime) {
 			continue;
