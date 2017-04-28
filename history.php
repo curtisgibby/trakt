@@ -81,7 +81,7 @@ $pageTitle = "Trakt History - $startDate to $endDate";
 		?>
 		</table>
 
-		<p><a href="https://trakt.tv/users/curtisgibby/history.json">Trakt History</a></p>
+		<p><a href="https://trakt.tv/users/me/history.json">Trakt History</a></p>
 		<ul class="list-inline">
 		<?php
 		foreach (range(2014, date('Y')) as $year) {
