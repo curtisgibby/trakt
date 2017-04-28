@@ -1,4 +1,5 @@
 <?php
+define('START_YEAR', 2014);
 date_default_timezone_set('America/Denver');
 $startTime = strtotime('January 1');
 if (!empty($_GET['start_date'])) {
@@ -84,7 +85,7 @@ $pageTitle = "Trakt History - $startDate to $endDate";
 		<p><a href="https://trakt.tv/users/me/history.json">Trakt History</a></p>
 		<ul class="list-inline">
 		<?php
-		foreach (range(2014, date('Y')) as $year) {
+		foreach (range(START_YEAR, date('Y')) as $year) {
 			echo '<li><a href="/history.php?start_date=' . $year . '-01-01&end_date=' . ($year + 1) . '-01-01">' . $year . '</a></li>';
 		}
 		?>
