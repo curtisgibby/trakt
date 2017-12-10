@@ -207,6 +207,10 @@
     "title": "Undeclared",
     "image": "2359-g"
   },
+  "4476": {
+    "title": "The Wonder Years",
+    "image": "72888-g2"
+  },
   "4532": {
     "title": "Scrubs",
     "image": "76156-g9"
@@ -282,6 +286,10 @@
   "18265": {
     "title": "Community",
     "image": "94571-g7"
+  },
+  "18436": {
+    "title": "Drop Dead Diva",
+    "image": "95771-g5"
   },
   "18568": {
     "title": "Human Target",
@@ -715,6 +723,10 @@
     "title": "People of Earth",
     "image": "315068-g"
   },
+  "110419": {
+    "title": "Star Trek: Discovery",
+    "image": "328711-g5"
+  },
   "110769": {
     "title": "Milo Murphy's Law",
     "image": "315954-g"
@@ -723,6 +735,10 @@
     "title": "White Rabbit Project",
     "image": "316581-g"
   },
+  "113125": {
+    "title": "Strike",
+    "image": "319742-g"
+  },
   "113656": {
     "title": "Legion",
     "image": "320724-g3"
@@ -730,5 +746,21 @@
   "115971": {
     "title": "Tricked",
     "image": "322796-g"
+  },
+  "118225": {
+    "title": "Extinct",
+    "image": "326918-g2"
+  },
+  "118844": {
+    "title": "Year Million",
+    "image": "328143-g"
+  },
+  "119095": {
+    "title": "The Good Doctor",
+    "image": "328634-g2"
+  },
+  "123063": {
+    "title": "Philip K. Dick's Electric Dreams",
+    "image": "329083-g3"
   }
 }
