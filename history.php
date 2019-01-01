@@ -63,7 +63,7 @@ $pageTitle = "Trakt History - $startDate to $endDate";
 			$showTitle = 'Unknown';
 			if (array_key_exists($showId, $shows)) {
 				$showTitle = $shows[$showId]['title'];
-				$showTitle = '<a href=\'https://duckduckgo.com/?q=\\"' . urlencode($showTitle) . '"+"series+info"+site%3Athetvdb.com\'>' . $showTitle . '</a>';
+				$showTitle = '<a href=\'https://duckduckgo.com/?q=\\"' . urlencode($showTitle) . '"+inurl%3Aseries+site%3Athetvdb.com\'>' . $showTitle . '</a>';
 				if (!empty($shows[$showId]['image'])) {
 					$showImage = '<img src="https://images.weserv.nl/?url=thetvdb.com/banners/graphical/' . $shows[$showId]['image'] . '.jpg&h=50">';
 				}
