@@ -391,6 +391,10 @@
     "title": "The Killing",
     "image": "210171-g4"
   },
+  "34392": {
+    "title": "Breaking In",
+    "image": "206751-g2"
+  },
   "34744": {
     "title": "CHAOS",
     "image": "227761-g"
@@ -597,7 +601,7 @@
   },
   "74246": {
     "title": "Studio C",
-    "image": "271173-g"
+    "image": "5cfbee6a6c8ad"
   },
   "77677": {
     "title": "Marvel's Agent Carter",
@@ -795,6 +799,10 @@
     "title": "Philip K. Dick's Electric Dreams",
     "image": "329083-g3"
   },
+  "124381": {
+    "title": "Tom Clancy's Jack Ryan",
+    "image": "336261-g"
+  },
   "125520": {
     "title": "Making It",
     "image": "338260-g"
@@ -818,5 +826,21 @@
   "134656": {
     "title": "Magic for Humans",
     "image": "5b773a4f674e6"
+  },
+  "145923": {
+    "title": "Show Offs",
+    "image": "5cfbe44d5d8e6"
+  },
+  "143555": {
+    "title": "The Twilight Zone",
+    "image": "5c785808ed4fd"
+  },
+  "144119": {
+    "title": "Good Omens",
+    "image": "5c899cdc2b713"
+  },
+  "148835": {
+    "title": "Battle of the Ages",
+    "image": "5cfb77320f42d"
   }
 }
