@@ -44,7 +44,7 @@ $pageTitle = "Trakt History - $startDate to $endDate";
 <html>
 	<head>
 		<title><?php echo $pageTitle; ?></title>
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	</head>
 	<body>
 		
