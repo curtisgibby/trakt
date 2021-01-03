@@ -16,7 +16,7 @@ $showsFile = 'shows.json';
 $events = json_decode(file_get_contents($historyFile), true);
 $shows = json_decode(file_get_contents($showsFile), true);
 $movieCount = $episodeCount = 0;
-$showTotals = array();
+$showTotals = [];
 foreach ($events['movies'] as $movieId => $movie) {
 	$watchTime = $movie[0];
 	if ($watchTime < $startTime || $watchTime > $endTime) {
@@ -46,12 +46,12 @@ $pageTitle = "Trakt History - $startDate to $endDate";
 		<title><?php echo $pageTitle; ?></title>
 		<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	</head>
-	<body>
+	<body class="container">
 		
 		<?php
-		echo "<h1>$pageTitle</h1>";
-		echo("<P>Movie Count : " . $movieCount);
-		echo("<P>TV Episode Count : " . $episodeCount);
+		echo '<h1>' . $pageTitle . '</h1>';
+		echo '<p>Movie Count : ' . $movieCount . '</p>';
+		echo '<p>TV Episode Count : ' . $episodeCount . '</p>';
 		echo "<table class='table table-striped'><thead><tr>
 			<th>ID</th>
 			<th>Title</th>
@@ -65,15 +65,18 @@ $pageTitle = "Trakt History - $startDate to $endDate";
 				$showTitle = $shows[$showId]['title'];
 				$showTitle = '<a href=\'https://duckduckgo.com/?q=\\"' . urlencode($showTitle) . '"+inurl%3Aseries+site%3Athetvdb.com\'>' . $showTitle . '</a>';
 				if (!empty($shows[$showId]['image'])) {
-					$showImage = '<img src="https://images.weserv.nl/?url=thetvdb.com/banners/graphical/' . $shows[$showId]['image'] . '.jpg&h=50">';
+					if (substr($shows[$showId]['image'], 0, 11) !== 'thetvdb.com') {
+						$shows[$showId]['image'] = 'thetvdb.com/banners/graphical/' . $shows[$showId]['image'] . '.jpg';
+					}
+					$showImage = '<img src="https://images.weserv.nl/?url=' . $shows[$showId]['image'] . '&h=50">';
 				}
 			}
 			echo "<tr>
-			<td><a href='http://trakt.tv/shows/" . $showId . "'>" . $showId . "</a></td>
-			<td>" . $showTitle . "</td>
-			<td>" . $showImage . "</td>
-			<td>" . $watchCount . "</td>
-		</tr>";
+			<td><a href='http://trakt.tv/shows/" . $showId . "'>" . $showId . '</a></td>
+			<td>' . $showTitle . '</td>
+			<td>' . $showImage . '</td>
+			<td>' . $watchCount . '</td>
+		</tr>';
 		}
 		?>
 		</table>
@@ -82,7 +85,7 @@ $pageTitle = "Trakt History - $startDate to $endDate";
 		<ul class="list-inline">
 		<?php
 		foreach (range(START_YEAR, date('Y')) as $year) {
-			echo '<li><a href="/history.php?start_date=' . $year . '-01-01&end_date=' . ($year + 1) . '-01-01">' . $year . '</a></li>';
+			echo '<li class="list-inline-item"><a href="/history.php?start_date=' . $year . '-01-01&end_date=' . ($year + 1) . '-01-01">' . $year . '</a></li>';
 		}
 		?>
 		</ul>

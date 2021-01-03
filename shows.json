@@ -511,6 +511,10 @@
         "title": "Super Fun Night",
         "image": "269652-g"
     },
+    "48702": {
+        "title": "The Goldbergs",
+        "image": "5b9049d8449f3"
+    },
     "53972": {
         "title": "Brain Games",
         "image": "252570-g"
@@ -731,6 +735,10 @@
         "title": "The Quick and the Curious",
         "image": "306561-g"
     },
+    "105914": {
+        "title": "The Durrells",
+        "image": "308129-g2_t"
+    },
     "107036": {
         "title": "Random Acts",
         "image": "310169-g2"
@@ -777,7 +785,7 @@
     },
     "113125": {
         "title": "Strike",
-        "image": "319742-g"
+        "image": "319742-g3"
     },
     "113656": {
         "title": "Legion",
@@ -794,6 +802,10 @@
     "118164": {
         "title": "The Marvelous Mrs. Maisel",
         "image": "5c00667502b89"
+    },
+    "118572": {
+        "title": "Money Heist",
+        "image": "5d3601adceba4_t"
     },
     "118844": {
         "title": "Year Million",
@@ -839,6 +851,14 @@
         "title": "Patriot Act with Hasan Minhaj",
         "image": "5be4940a88272"
     },
+    "137178": {
+        "title": "The Mandalorian",
+        "image": "thetvdb.com/banners/series/361753/banners/5f88a4d0052dc_t.jpg"
+    },
+    "140471": {
+        "title": "Overthinking with Kat & June",
+        "image": "thetvdb.com/banners/graphical/5c1e179cd5452.jpg"
+    },
     "145923": {
         "title": "Show Offs",
         "image": "5cfbe44d5d8e6"
@@ -855,6 +875,30 @@
         "title": "Bring the Funny",
         "image": "5d060c7a26425"
     },
+    "146346": {
+        "title": "Belgravia",
+        "image": "thetvdb.com/banners/series/362204/banners/5fa9e8cad7ad7.jpg"
+    },
+    "146524": {
+        "title": "The World According to Jeff Goldblum",
+        "image": "thetvdb.com/banners/series/362437/banners/62077835.jpg"
+    },
+    "147717": {
+        "title": "Zoey's Extraordinary Playlist",
+        "image": "5d0d95c729678"
+    },
+    "147922": {
+        "title": "Star Trek: Picard",
+        "image": "thetvdb.com/banners/series/364093/banners/62061463.jpg"
+    },
+    "147932": {
+        "title": "Avenue 5",
+        "image": "thetvdb.com/banners/series/364106/banners/62057195_t.jpg"
+    },
+    "147971": {
+        "title": "Devs",
+        "image": "thetvdb.com/banners/series/364149/banners/5e9169ca7edb5.jpg"
+    },
     "148835": {
         "title": "Battle of the Ages",
         "image": "5cfb77320f42d"
@@ -863,8 +907,44 @@
         "title": "Living with Yourself",
         "image": "5da96f8cd9b8a_t"
     },
+    "152908": {
+        "title": "Space Force",
+        "image": "thetvdb.com/banners/series/368667/banners/5ed492dd8ced5.jpg"
+    },
+    "153312": {
+        "title": "LEGO Masters",
+        "image": "thetvdb.com/banners/series/370166/banners/62029629.jpg"
+    },
     "153430": {
         "title": "Making Good",
         "image": "5d94a6bed2253"
+    },
+    "154196": {
+        "title": "The Imagineering Story",
+        "image": "thetvdb.com/banners/series/371058/banners/5f3728f2a2ca1_t.jpg"
+    },
+    "159306": {
+        "title": "All-Round Champion",
+        "image": "thetvdb.com/banners/series/378544/banners/62111183_t.jpg"
+    },
+    "160515": {
+        "title": "Wayne Brady's Comedy IQ",
+        "image": "thetvdb.com/banners/series/380247/banners/5e9718f9e3aa3_t.jpg"
+    },
+    "160532": {
+        "title": "Middleditch & Schwartz",
+        "image": "thetvdb.com/banners/series/380268/banners/5e9ec646dbe36.jpg"
+    },
+    "164798": {
+        "title": "Jim Gaffigan: The Pale Tourist",
+        "image": ""
+    },
+    "165792": {
+        "title": "The Queen's Gambit",
+        "image": "thetvdb.com/banners/series/387115/banners/5fa16bba51387.jpg"
+    },
+    "169497": {
+        "title": "Alien Worlds",
+        "image": "thetvdb.com/banners/series/391877/banners/5fc5cca8e8352_t.jpg"
     }
 }
