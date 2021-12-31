@@ -107,6 +107,10 @@
         "title": "Psych",
         "image": "79335-g"
     },
+    "1457": {
+        "title": "Joey",
+        "image": "20952-g2_t"
+    },
     "1508": {
         "title": "The Weird Al Show",
         "image": ""
@@ -230,6 +234,10 @@
     "4565": {
         "title": "Arrested Development",
         "image": "72173-g5"
+    },
+    "4596": {
+        "title": "Eureka",
+        "image": "79334-g6_t"
     },
     "4583": {
         "title": "Lost",
@@ -435,6 +443,10 @@
         "title": "Suburgatory",
         "image": "248842-g2"
     },
+    "39194": {
+        "title": "The Finder",
+        "image": "248651-g4_t"
+    },
     "39195": {
         "title": "Awake",
         "image": "248735-g"
@@ -514,6 +526,10 @@
     "48702": {
         "title": "The Goldbergs",
         "image": "5b9049d8449f3"
+    },
+    "48704": {
+        "title": "Mom",
+        "image": "266967-g2_t"
     },
     "53972": {
         "title": "Brain Games",
@@ -663,6 +679,10 @@
         "title": "Schitt's Creek",
         "image": "287247-g_t"
     },
+    "93737": {
+        "title": "Worst to First",
+        "image": "335221-g_t"
+    },
     "99090": {
         "title": "Crazy Ex-Girlfriend",
         "image": "295777-g3"
@@ -678,6 +698,10 @@
     "96180": {
         "title": "Humans",
         "image": "292124-g"
+    },
+    "96220": {
+        "title": "Dark Matter",
+        "image": "292174-g4_t"
     },
     "97349": {
         "title": "Kevin from Work",
@@ -714,6 +738,10 @@
     "100457": {
         "title": "Con Man",
         "image": "298156-g2"
+    },
+    "100817": {
+        "title": "Master of None",
+        "image": "298901-g2_t"
     },
     "104247": {
         "title": "Diesel Brothers",
@@ -791,6 +819,10 @@
         "title": "Legion",
         "image": "320724-g3"
     },
+    "115768": {
+        "title": "Genius",
+        "image": "322399-g_t"
+    },
     "115971": {
         "title": "Tricked",
         "image": "322796-g"
@@ -819,6 +851,10 @@
         "title": "Philip K. Dick's Electric Dreams",
         "image": "329083-g3"
     },
+    "123887": {
+        "title": "The Late Show with Stephen Colbert",
+        "image": "289574-g_t"
+    },
     "124381": {
         "title": "Tom Clancy's Jack Ryan",
         "image": "336261-g"
@@ -834,6 +870,14 @@
     "127922": {
         "title": "Just Like Mom and Dad",
         "image": "342728-g"
+    },
+    "126924": {
+        "title": "Killing Eve",
+        "image": "thetvdb.com/banners/series/340959/banners/5e872fa77e09e_t.jpg"
+    },
+    "130511": {
+        "title": "After Life",
+        "image": "5c8291b90cf98_t"
     },
     "130734": {
         "title": "The Who Was? Show",
@@ -879,9 +923,25 @@
         "title": "Belgravia",
         "image": "thetvdb.com/banners/series/362204/banners/5fa9e8cad7ad7.jpg"
     },
+    "146518": {
+        "title": "WandaVision",
+        "image": "thetvdb.com/banners/series/362392/banners/60038db303695_t.jpg"
+    },
+    "146522": {
+        "title": "What If?",
+        "image": "thetvdb.com/banners/v4/series/367147/banners/610ef12e88b69_t.jpg"
+    },
     "146524": {
         "title": "The World According to Jeff Goldblum",
         "image": "thetvdb.com/banners/series/362437/banners/62077835.jpg"
+    },
+    "146535": {
+        "title": "Loki",
+        "image": "thetvdb.com/banners/v4/series/362472/banners/606b40128975d_t.jpg"
+    },
+    "146573": {
+        "title": "The Falcon and the Winter Soldier",
+        "image": "thetvdb.com/banners/v4/series/362496/banners/605e1149a1786_t.jpg"
     },
     "147717": {
         "title": "Zoey's Extraordinary Playlist",
@@ -907,6 +967,10 @@
         "title": "Living with Yourself",
         "image": "5da96f8cd9b8a_t"
     },
+    "152469": {
+        "title": "The Great",
+        "image": "thetvdb.com/banners/series/369301/banners/5eb4c60ab818d_t.jpg"
+    },
     "152908": {
         "title": "Space Force",
         "image": "thetvdb.com/banners/series/368667/banners/5ed492dd8ced5.jpg"
@@ -919,9 +983,21 @@
         "title": "Making Good",
         "image": "5d94a6bed2253"
     },
+    "153525": {
+        "title": "Central Park",
+        "image": "thetvdb.com/banners/series/368121/banners/5eecde6de99d5_t.jpg"
+    },
+    "153862": {
+        "title": "Station Eleven",
+        "image": "thetvdb.com/banners/v4/series/366529/banners/61c33b59dc18b.jpg"
+    },
     "154196": {
         "title": "The Imagineering Story",
         "image": "thetvdb.com/banners/series/371058/banners/5f3728f2a2ca1_t.jpg"
+    },
+    "158690": {
+        "title": "Upload",
+        "image": "thetvdb.com/banners/series/368211/banners/5eb0e622ee0c2_t.jpg"
     },
     "159306": {
         "title": "All-Round Champion",
@@ -935,6 +1011,14 @@
         "title": "Middleditch & Schwartz",
         "image": "thetvdb.com/banners/series/380268/banners/5e9ec646dbe36.jpg"
     },
+    "162029": {
+        "title": "Call Me Kat",
+        "image": "thetvdb.com/banners/series/382185/banners/5fe4925585ecd_t.jpg"
+    },
+    "162639": {
+        "title": "Ted Lasso",
+        "image": "thetvdb.com/banners/v4/series/383203/banners/60dfad53daf18_t.jpg"
+    },
     "164798": {
         "title": "Jim Gaffigan: The Pale Tourist",
         "image": ""
@@ -946,5 +1030,33 @@
     "169497": {
         "title": "Alien Worlds",
         "image": "thetvdb.com/banners/series/391877/banners/5fc5cca8e8352_t.jpg"
+    },
+    "170642": {
+        "title": "Dug Days",
+        "image": "thetvdb.com/banners/v4/series/393210/banners/61338361c3375_t.jpg"
+    },
+    "173723": {
+        "title": "Murder Among the Mormons",
+        "image": "thetvdb.com/banners/v4/series/396763/banners/6165942b4ca5b_t.jpg"
+    },
+    "173880": {
+        "title": "Marvel Studios: Assembled",
+        "image": "thetvdb.com/banners/series/396948/banners/602fcc9171c93_t.jpg"
+    },
+    "179021": {
+        "title": "The Problem With Jon Stewart",
+        "image": "thetvdb.com/banners/v4/series/400756/banners/61553eca87fde_t.jpg"
+    },
+    "179678": {
+        "title": "Grace Notes",
+        "image": "thetvdb.com/banners/v4/series/401741/banners/6085c0a468238_t.jpg"
+    },
+    "181486": {
+        "title": "Olaf Presents",
+        "image": "thetvdb.com/banners/v4/series/404155/banners/618f93d8f392f_t.jpg"
+    },
+    "186127": {
+        "title": "LuLaRich",
+        "image": "thetvdb.com/banners/v4/series/408854/backgrounds/612ff70557964_t.jpg"
     }
 }
