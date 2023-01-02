@@ -495,6 +495,10 @@
         "title": "Comedy Bang! Bang!",
         "image": "258310-g"
     },
+    "44609": {
+        "title": "The Mindy Project",
+        "image": ""
+    },
     "45232": {
         "title": "A Touch of Cloth",
         "image": "260750-g3"
@@ -626,6 +630,10 @@
     "74246": {
         "title": "Studio C",
         "image": "5cfbee6a6c8ad"
+    },
+    "75199": {
+        "title": "Late Night with Seth Meyers",
+        "image": ""
     },
     "77677": {
         "title": "Marvel's Agent Carter",
@@ -847,6 +855,10 @@
         "title": "The Good Doctor",
         "image": "328634-g2"
     },
+    "121492": {
+        "title": "Future Man",
+        "image": ""
+    },
     "123063": {
         "title": "Philip K. Dick's Electric Dreams",
         "image": "329083-g3"
@@ -899,6 +911,10 @@
         "title": "The Mandalorian",
         "image": "thetvdb.com/banners/series/361753/banners/5f88a4d0052dc_t.jpg"
     },
+    "138630": {
+        "title": "The Other Two",
+        "image": ""
+    },
     "140471": {
         "title": "Overthinking with Kat & June",
         "image": "thetvdb.com/banners/graphical/5c1e179cd5452.jpg"
@@ -918,6 +934,10 @@
     "146127": {
         "title": "Bring the Funny",
         "image": "5d060c7a26425"
+    },
+    "146415": {
+        "title": "Hawkeye",
+        "image": ""
     },
     "146346": {
         "title": "Belgravia",
@@ -967,6 +987,18 @@
         "title": "Living with Yourself",
         "image": "5da96f8cd9b8a_t"
     },
+    "151840": {
+        "title": "Moon Knight",
+        "image": ""
+    },
+    "151853": {
+        "title": "Ms. Marvel",
+        "image": ""
+    },
+    "151854": {
+        "title": "She-Hulk: Attorney at Law",
+        "image": ""
+    },
     "152469": {
         "title": "The Great",
         "image": "thetvdb.com/banners/series/369301/banners/5eb4c60ab818d_t.jpg"
@@ -974,6 +1006,10 @@
     "152908": {
         "title": "Space Force",
         "image": "thetvdb.com/banners/series/368667/banners/5ed492dd8ced5.jpg"
+    },
+    "153265": {
+        "title": "Life & Beth",
+        "image": ""
     },
     "153312": {
         "title": "LEGO Masters",
@@ -994,6 +1030,10 @@
     "154196": {
         "title": "The Imagineering Story",
         "image": "thetvdb.com/banners/series/371058/banners/5f3728f2a2ca1_t.jpg"
+    },
+    "154997": {
+        "title": "Severance",
+        "image": ""
     },
     "158690": {
         "title": "Upload",
@@ -1023,6 +1063,10 @@
         "title": "Jim Gaffigan: The Pale Tourist",
         "image": ""
     },
+    "165314": {
+        "title": "Only Murders in the Building",
+        "image": "thetvdb.com/banners/series/387115/banners/5fa16bba51387.jpg"
+    },
     "165792": {
         "title": "The Queen's Gambit",
         "image": "thetvdb.com/banners/series/387115/banners/5fa16bba51387.jpg"
@@ -1030,6 +1074,10 @@
     "169497": {
         "title": "Alien Worlds",
         "image": "thetvdb.com/banners/series/391877/banners/5fc5cca8e8352_t.jpg"
+    },
+    "170593": {
+        "title": "Schmigadoon!",
+        "image": ""
     },
     "170642": {
         "title": "Dug Days",
@@ -1043,6 +1091,10 @@
         "title": "Marvel Studios: Assembled",
         "image": "thetvdb.com/banners/series/396948/banners/602fcc9171c93_t.jpg"
     },
+    "175330": {
+        "title": "Whose Line Is It Anyway?",
+        "image": ""
+    },
     "179021": {
         "title": "The Problem With Jon Stewart",
         "image": "thetvdb.com/banners/v4/series/400756/banners/61553eca87fde_t.jpg"
@@ -1051,6 +1103,10 @@
         "title": "Grace Notes",
         "image": "thetvdb.com/banners/v4/series/401741/banners/6085c0a468238_t.jpg"
     },
+    "180675": {
+        "title": "Abbott Elementary",
+        "image": ""
+    },
     "181486": {
         "title": "Olaf Presents",
         "image": "thetvdb.com/banners/v4/series/404155/banners/618f93d8f392f_t.jpg"
@@ -1058,5 +1114,17 @@
     "186127": {
         "title": "LuLaRich",
         "image": "thetvdb.com/banners/v4/series/408854/backgrounds/612ff70557964_t.jpg"
+    },
+    "192519": {
+        "title": "Murderville",
+        "image": ""
+    },
+    "195503": {
+        "title": "Blockbuster",
+        "image": ""
+    },
+    "196342": {
+        "title": "How to Change Your Mind",
+        "image": ""
     }
 }
