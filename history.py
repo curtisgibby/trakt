@@ -47,5 +47,10 @@ rank = 0
 print("{: >5} {: <35} {: >5}".format("Rank", "Show Title", "View Count"))
 print("{: >5} {: <35} {: >5}".format("----", "----------", "----------"))
 for showId, showViewCount in sortedViewsByShow:
+    if showId in shows:
+        showTitle = shows[showId]['title']
+    else:
+        showTitle = 'Unknown Show: https://trakt.tv/shows/' + showId
+
     rank += 1
-    print("{: >5} {: <35} {: >5}".format(rank, shows[showId]['title'], showViewCount))
+    print("{: >5} {: <35} {: >5}".format(rank, showTitle, showViewCount))
