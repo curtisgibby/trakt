@@ -1071,9 +1071,17 @@
         "title": "The Queen's Gambit",
         "image": "thetvdb.com/banners/series/387115/banners/5fa16bba51387.jpg"
     },
+    "168471": {
+        "title": "The White Lotus",
+        "image": ""
+    },
     "169497": {
         "title": "Alien Worlds",
         "image": "thetvdb.com/banners/series/391877/banners/5fc5cca8e8352_t.jpg"
+    },
+    "170270": {
+        "title": "Willow",
+        "image": ""
     },
     "170593": {
         "title": "Schmigadoon!",
@@ -1091,6 +1099,10 @@
         "title": "Marvel Studios: Assembled",
         "image": "thetvdb.com/banners/series/396948/banners/602fcc9171c93_t.jpg"
     },
+    "173996": {
+        "title": "Wednesday",
+        "image": ""
+    },
     "175330": {
         "title": "Whose Line Is It Anyway?",
         "image": ""
@@ -1107,6 +1119,10 @@
         "title": "Abbott Elementary",
         "image": ""
     },
+    "180770": {
+        "title": "Silo",
+        "image": ""
+    },
     "181486": {
         "title": "Olaf Presents",
         "image": "thetvdb.com/banners/v4/series/404155/banners/618f93d8f392f_t.jpg"
@@ -1115,8 +1131,20 @@
         "title": "LuLaRich",
         "image": "thetvdb.com/banners/v4/series/408854/backgrounds/612ff70557964_t.jpg"
     },
+    "187723": {
+        "title": "Lessons in Chemistry",
+        "image": ""
+    },
     "192519": {
         "title": "Murderville",
+        "image": ""
+    },
+    "194398": {
+        "title": "Brene Brown: Atlas of the Heart",
+        "image": ""
+    },
+    "194751": {
+        "title": "A Small Light",
         "image": ""
     },
     "195503": {
@@ -1125,6 +1153,10 @@
     },
     "196342": {
         "title": "How to Change Your Mind",
+        "image": ""
+    },
+    "197581": {
+        "title": "Not Dead Yet",
         "image": ""
     }
 }
