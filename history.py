@@ -6,10 +6,10 @@ with open('history.json') as f:
 with open('shows.json') as f:
     shows = json.load(f)
 
-startDateString = "2023-01-01T00:00:00"
+startDateString = "2024-01-01T00:00:00"
 startDate = datetime.strptime(startDateString, '%Y-%m-%dT%H:%M:%S')
 
-endDateString = "2024-01-01T00:00:00"
+endDateString = "2025-01-01T00:00:00"
 endDate = datetime.strptime(endDateString, '%Y-%m-%dT%H:%M:%S')
 
 episodeCount = movieCount = 0
@@ -33,11 +33,6 @@ for showId in events['shows']:
             else:
                 viewsByShow[showId] = 1
             episodeCount += 1
-            # if show:
-            #     print 'show[title]: {}'.format(show['title'])
-            # else:
-            #     print 'unknown show with ID of {}'.format(showId)
-            # print 'showId: {}'.format(showId)
 
 print 'movieCount: {}'.format(movieCount)
 print 'episodeCount: {}'.format(episodeCount)
