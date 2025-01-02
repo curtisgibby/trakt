@@ -855,6 +855,10 @@
         "title": "The Good Doctor",
         "image": "328634-g2"
     },
+    "119172": {
+        "title": "Young Sheldon",
+        "image": ""
+    },
     "121492": {
         "title": "Future Man",
         "image": ""
@@ -919,9 +923,13 @@
         "title": "Overthinking with Kat & June",
         "image": "thetvdb.com/banners/graphical/5c1e179cd5452.jpg"
     },
-    "145923": {
-        "title": "Show Offs",
-        "image": "5cfbe44d5d8e6"
+    "140481": {
+        "title": "For All Mankind",
+        "image": ""
+    },
+    "142927": {
+        "title": "What We Do in the Shadows",
+        "image": ""
     },
     "143555": {
         "title": "The Twilight Zone",
@@ -931,9 +939,17 @@
         "title": "Good Omens",
         "image": "5c899cdc2b713"
     },
+    "145923": {
+        "title": "Show Offs",
+        "image": "5cfbe44d5d8e6"
+    },
     "146127": {
         "title": "Bring the Funny",
         "image": "5d060c7a26425"
+    },
+    "146300": {
+        "title": "The Goes Wrong Show",
+        "image": ""
     },
     "146415": {
         "title": "Hawkeye",
@@ -1023,6 +1039,10 @@
         "title": "Central Park",
         "image": "thetvdb.com/banners/series/368121/banners/5eecde6de99d5_t.jpg"
     },
+    "153823": {
+        "title": "The Flight Attendant",
+        "image": ""
+    },
     "153862": {
         "title": "Station Eleven",
         "image": "thetvdb.com/banners/v4/series/366529/banners/61c33b59dc18b.jpg"
@@ -1033,6 +1053,10 @@
     },
     "154997": {
         "title": "Severance",
+        "image": ""
+    },
+    "157481": {
+        "title": "Trying",
         "image": ""
     },
     "158690": {
@@ -1046,6 +1070,10 @@
     "160515": {
         "title": "Wayne Brady's Comedy IQ",
         "image": "thetvdb.com/banners/series/380247/banners/5e9718f9e3aa3_t.jpg"
+    },
+    "160497": {
+        "title": "We Are Lady Parts",
+        "image": ""
     },
     "160532": {
         "title": "Middleditch & Schwartz",
@@ -1061,6 +1089,10 @@
     },
     "164798": {
         "title": "Jim Gaffigan: The Pale Tourist",
+        "image": ""
+    },
+    "164733": {
+        "title": "Somebody Somewhere",
         "image": ""
     },
     "165314": {
@@ -1111,6 +1143,10 @@
         "title": "The Problem With Jon Stewart",
         "image": "thetvdb.com/banners/v4/series/400756/banners/61553eca87fde_t.jpg"
     },
+    "179632": {
+        "title": "Hacks",
+        "image": ""
+    },
     "179678": {
         "title": "Grace Notes",
         "image": "thetvdb.com/banners/v4/series/401741/banners/6085c0a468238_t.jpg"
@@ -1135,12 +1171,28 @@
         "title": "Lessons in Chemistry",
         "image": ""
     },
+    "189362": {
+        "title": "All the Light We Cannot See",
+        "image": ""
+    },
+    "191186": {
+        "title": "Agatha All Along",
+        "image": ""
+    },
+    "192442": {
+        "title": "Reboot",
+        "image": ""
+    },
     "192519": {
         "title": "Murderville",
         "image": ""
     },
     "194398": {
         "title": "Brene Brown: Atlas of the Heart",
+        "image": ""
+    },
+    "194722": {
+        "title": "Loot",
         "image": ""
     },
     "194751": {
@@ -1157,6 +1209,18 @@
     },
     "197581": {
         "title": "Not Dead Yet",
+        "image": ""
+    },
+    "204671": {
+        "title": "Mark Rober's Revengineers",
+        "image": ""
+    },
+    "204672": {
+        "title": "This Is Mark Rober",
+        "image": ""
+    },
+    "233797": {
+        "title": "Nobody Wants This",
         "image": ""
     }
 }
