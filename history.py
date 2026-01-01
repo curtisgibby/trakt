@@ -6,10 +6,10 @@ with open('history.json') as f:
 with open('shows.json') as f:
     shows = json.load(f)
 
-startDateString = "2024-01-01T00:00:00"
+startDateString = "2025-01-01T00:00:00"
 startDate = datetime.strptime(startDateString, '%Y-%m-%dT%H:%M:%S')
 
-endDateString = "2025-01-01T00:00:00"
+endDateString = "2026-01-01T00:00:00"
 endDate = datetime.strptime(endDateString, '%Y-%m-%dT%H:%M:%S')
 
 episodeCount = movieCount = 0
