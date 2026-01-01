@@ -34,8 +34,8 @@ for showId in events['shows']:
                 viewsByShow[showId] = 1
             episodeCount += 1
 
-print 'movieCount: {}'.format(movieCount)
-print 'episodeCount: {}'.format(episodeCount)
+print('movieCount: {}'.format(movieCount))
+print('episodeCount: {}'.format(episodeCount))
 
 sortedViewsByShow = sorted(viewsByShow.items(), key=lambda x:x[1], reverse=True)
 rank = 0
