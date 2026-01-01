@@ -14,6 +14,7 @@ endDate = datetime.strptime(endDateString, '%Y-%m-%dT%H:%M:%S')
 
 episodeCount = movieCount = 0
 viewsByShow = {}
+showsWithViewsBeforeStart = set()
 
 for movieId in events['movies']:
     movieView = events['movies'][movieId]
@@ -27,6 +28,8 @@ for showId in events['shows']:
     for episodeId in showViews['e']:
         episodeViews = showViews['e'][episodeId]
         episodeViewDatetime = datetime.fromtimestamp(episodeViews[0])
+        if episodeViewDatetime < startDate:
+            showsWithViewsBeforeStart.add(showId)
         if startDate <= episodeViewDatetime <= endDate:
             if showId in viewsByShow:
                 viewsByShow[showId] += 1
@@ -47,5 +50,21 @@ for showId, showViewCount in sortedViewsByShow:
     else:
         showTitle = 'Unknown Show: https://trakt.tv/shows/' + showId
 
+    rank += 1
+    print("{: >5} {: <35} {: >5}".format(rank, showTitle, showViewCount))
+
+# Shows started this year (no views before start date)
+newShows = {k: v for k, v in viewsByShow.items() if k not in showsWithViewsBeforeStart}
+sortedNewShows = sorted(newShows.items(), key=lambda x: x[1], reverse=True)
+
+print("\n\nShows Started This Year")
+print("{: >5} {: <35} {: >5}".format("Rank", "Show Title", "View Count"))
+print("{: >5} {: <35} {: >5}".format("----", "----------", "----------"))
+rank = 0
+for showId, showViewCount in sortedNewShows:
+    if showId in shows:
+        showTitle = shows[showId]['title']
+    else:
+        showTitle = 'Unknown Show: https://trakt.tv/shows/' + showId
     rank += 1
     print("{: >5} {: <35} {: >5}".format(rank, showTitle, showViewCount))
