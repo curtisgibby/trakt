@@ -27,7 +27,11 @@ function renderShowTable($showTotals, $shows) {
 			}
 			// TMDB link
 			if (!empty($showData['tmdb_id'])) {
-				$links .= '<a href="https://www.themoviedb.org/tv/' . $showData['tmdb_id'] . '" target="_blank"><img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" height="20"></a>';
+				$links .= '<a href="https://www.themoviedb.org/tv/' . $showData['tmdb_id'] . '" target="_blank"><img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg" height="20"></a> ';
+			}
+			// IMDb link
+			if (!empty($showData['imdb_id'])) {
+				$links .= '<a href="https://www.imdb.com/title/' . $showData['imdb_id'] . '" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" height="20"></a>';
 			}
 		}
 		echo "<tr>

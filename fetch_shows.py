@@ -47,10 +47,11 @@ def main():
             show = TVShow(show_id)
             shows[show_id] = {
                 'title': show.title,
+                'imdb_id': show.imdb,
                 'tmdb_id': show.tmdb,
                 'tvdb_id': show.tvdb
             }
-            print(f"  {show_id}: {show.title} (tmdb: {show.tmdb}, tvdb: {show.tvdb})")
+            print(f"  {show_id}: {show.title} (imdb: {show.imdb}, tmdb: {show.tmdb}, tvdb: {show.tvdb})")
         except Exception as e:
             print(f"  {show_id}: Error - {e}")
 

@@ -71,13 +71,14 @@ def main():
             print(f"  {show_data['title']}: No banners found in any language")
 
     # Save updated shows, sorted numerically by Trakt ID
-    # Reorder keys: title, image, tmdb_id, tvdb_id
+    # Reorder keys: title, image, imdb_id, tmdb_id, tvdb_id
     sorted_shows = {}
     for k in sorted(shows.keys(), key=int):
         show = shows[k]
         sorted_shows[k] = {
             'title': show.get('title'),
             'image': show.get('image', ''),
+            'imdb_id': show.get('imdb_id'),
             'tmdb_id': show.get('tmdb_id'),
             'tvdb_id': show.get('tvdb_id')
         }
