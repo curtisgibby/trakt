@@ -119,7 +119,7 @@ $pageTitle = "Trakt History - $startDate to $endDate";
 		<ul class="list-inline">
 		<?php
 		foreach (range(START_YEAR, date('Y')) as $year) {
-			echo '<li class="list-inline-item"><a href="/history.php?start_date=' . $year . '-01-01&end_date=' . ($year + 1) . '-01-01">' . $year . '</a></li>';
+			echo '<li class="list-inline-item"><a href="history.php?start_date=' . $year . '-01-01&end_date=' . ($year + 1) . '-01-01">' . $year . '</a></li>';
 		}
 		?>
 		</ul>
